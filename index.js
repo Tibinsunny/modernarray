@@ -4,9 +4,16 @@ return array
   }
 exports.popByValue = function (array, value) {
     if(typeof(array[0])=="number"){
-        let index = array.indexOf(value) 
-        array.splice(index, 1)
-        return array
+        let index = array.indexOf(value)
+        if(index>-1)
+        {
+            array.splice(index, 1)
+            return array
+        }
+        else{
+            return array
+        }
+
     }
     if(typeof(array[0])=="object" && typeof(value)=="object")
     {

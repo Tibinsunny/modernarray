@@ -1,6 +1,6 @@
 {
   "name": "modernarray",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A modern User-friendly array which supports stack Operations. This helps you to handle and modify arrays nice and easily",
   "main": "index.js",
   "scripts": {
