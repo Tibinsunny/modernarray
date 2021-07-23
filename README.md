@@ -19,7 +19,7 @@ let myArray=[{
     name:"Bob Painter",
     status:true
 }]
-
+// Array can also be let modernarray = [1,2,3,4,5,6,7,8]
 let outputArray = modernarray.popByIndex(myArray,1)
 /* Output Array will just have 
 [{
@@ -48,7 +48,9 @@ New Element is added
 */
 ```
 ## Supported Function
-* popByIndex
-* popByValue
-* pushToIndex
+* popByIndex(array,index)
+* popByValue(array,value)
+* pushToIndex(array,index,value)
+
+
 
