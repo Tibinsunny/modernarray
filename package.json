@@ -1,6 +1,6 @@
 {
   "name": "modernarray",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A modern User-friendly array which supports stack Operations. This helps you to handle and modify arrays nice and easily",
   "main": "index.js",
   "scripts": {
@@ -12,11 +12,13 @@
   },
   "keywords": [
     "modernarray",
-    "arraypop",
-    "arraypush",
+    "array pop",
+    "array push",
     "arraymodification",
     "inputintoindex",
-    "popByIndex"
+    "popByIndex",
+    "json array",
+    "json array search"
   ],
   "author": "Tibin Sunny",
   "license": "MIT",
